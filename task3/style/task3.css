@@ -1,0 +1,9 @@
+body{width:100%;background-color:#68cdd5;font-size: 62.5%;}
+.arrow{float: left;padding-left: 1%;padding-top: 1%;}
+.logo{text-align: center;padding-top:10%}
+.middle{padding:20%;}
+.middle p{color: white;font-size: 2.5em;}
+.human{float: left;padding-left: 20%;text-align: center;}
+.human p{font-size: 2.5em;color: white;}
+.grape{float: right;padding-right: 20%;text-align: center;}
+.grape p{font-size: 2.5em;color: white;}
