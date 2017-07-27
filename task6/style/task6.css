@@ -41,7 +41,7 @@ header{
     outline: none;
     margin-left: -8px;
 }
-@media screen and (max-width: 361px){
+@media screen and (max-width: 410px){
     .nurse,.boss{
         font-size: 1rem;
     }
@@ -107,6 +107,14 @@ main{
     color: red;
     display: table-cell;
     text-align: center;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.p-3{
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
 }
 .icon-1{
     display: block;
