@@ -41,6 +41,11 @@ header{
     outline: none;
     margin-left: -8px;
 }
+@media screen and (max-width: 361px){
+    .nurse,.boss{
+        font-size: 1rem;
+    }
+}
 .location{
     background: url("../images/1.gif") no-repeat ;
     width: 32px;
@@ -55,6 +60,7 @@ header{
 }
 .button-group{
     display: flex;
+    border-bottom: 1px solid #cccccc;
 }
 .btn-group{
     flex:1;
@@ -85,14 +91,14 @@ header{
 main{
     width:100%;
     position:absolute;
-    top:14%;
+    top:13%;
     bottom:11%;
     overflow: auto;
 }
 .text{
     font-size:1.8rem;
     padding:5% 0;
-    border-top:1px solid #afbac0;
+    border-bottom:1px solid #afbac0;
 }
 .p-1{
     color: #afbac0;
