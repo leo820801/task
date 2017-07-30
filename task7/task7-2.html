@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>投票</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-        <script src="http://how2j.cn/study/js/jquery/2.0.0/jquery.min.js"></script>
-        <link href="http://how2j.cn/study/css/bootstrap/3.3.6/bootstrap.min.css" rel="stylesheet">
-        <script src="http://how2j.cn/study/js/bootstrap/3.3.6/bootstrap.min.js"></script>
-        <link href="style/task7-2.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <script src="http://how2j.cn/study/js/jquery/2.0.0/jquery.min.js"></script>
+    <link href="http://how2j.cn/study/css/bootstrap/3.3.6/bootstrap.min.css" rel="stylesheet">
+    <script src="http://how2j.cn/study/js/bootstrap/3.3.6/bootstrap.min.js"></script>
+    <link href="style/task7-2.css" rel="stylesheet" type="text/css">
+
 
 </head>
 <body>
@@ -17,7 +18,7 @@
 <header>
     <button class="table"></button>
     <span class="votename">投票</span>
-    <button class="close"></button>
+    <button class="closed"></button>
 </header>
 
 <div class="middle">
@@ -32,146 +33,137 @@
     </div>
 
 <main>
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-4 content-1">
-                <p class="name">水民</p>
-                <p class="namber">1号</p>
-                    <div class="select">
-                        <button class="vote vote-1"></button>
-                        <button class="vote vote-2"></button>
-                        <button class="vote vote-3"></button>
-                        <button class="vote vote-4"></button>
-                    </div>
+    <div class="content">
+        <div class="content-1">
+            <p class="name">水民</p>
+            <p class="namber">1号</p>
+            <div class="select">
+                <button class="vote vote-1"></button>
+                <button class="vote vote-2"></button>
+                <button class="vote vote-3"></button>
+                <button class="vote vote-4"></button>
             </div>
-
-        <div class="col-xs-4 content-1">
-                <p class="name">水民</p>
-                <p class="namber">2号</p>
-                    <div class="select">
-                        <button class="vote vote-1"></button>
-                        <button class="vote vote-2"></button>
-                        <button class="vote vote-3"></button>
-                        <button class="vote vote-4"></button>
-                    </div>
         </div>
-
-        <div class="col-xs-4 content-1">
-                <p class="name">警察</p>
-                <p class="namber">3号</p>
-                    <div class="select">
-                        <button class="vote vote-1"></button>
-                        <button class="vote vote-2"></button>
-                        <button class="vote vote-3"></button>
-                        <button class="vote vote-4"></button>
-                    </div>
+        <div class="content-1">
+            <p class="name">水民</p>
+            <p class="namber">2号</p>
+            <div class="select">
+                <button class="vote vote-1"></button>
+                <button class="vote vote-2"></button>
+                <button class="vote vote-3"></button>
+                <button class="vote vote-4"></button>
+            </div>
         </div>
-
-        <div class="col-xs-4">
-                <p class="name">法官</p>
-                <p class="namber">4号</p>
-                    <div class="select">
-                        <button class="vote vote-1"></button>
-                        <button class="vote vote-2"></button>
-                        <button class="vote vote-3"></button>
-                        <button class="vote vote-4"></button>
-                    </div>
+        <div class="content-1">
+            <p class="name">警察</p>
+            <p class="namber">3号</p>
+            <div class="select">
+                <button class="vote vote-1"></button>
+                <button class="vote vote-2"></button>
+                <button class="vote vote-3"></button>
+                <button class="vote vote-4"></button>
+            </div>
         </div>
-
-        <div class="col-xs-4">
-                <p class="name">狙击手</p>
-                <p class="namber">5号</p>
-                    <div class="select">
-                        <button class="vote vote-1"></button>
-                        <button class="vote vote-2"></button>
-                        <button class="vote vote-3"></button>
-                        <button class="vote vote-4"></button>
-                    </div>
+    </div>
+    <div class="content">
+        <div class="content-1">
+            <p class="name">法官</p>
+            <p class="namber">4号</p>
+            <div class="select">
+                <button class="vote vote-1"></button>
+                <button class="vote vote-2"></button>
+                <button class="vote vote-3"></button>
+                <button class="vote vote-4"></button>
+            </div>
         </div>
-
-        <div class="col-xs-4">
-                <p class="name">医生</p>
-                <p class="namber">6号</p>
-                    <div class="select">
-                        <button class="vote vote-1"></button>
-                        <button class="vote vote-2"></button>
-                        <button class="vote vote-3"></button>
-                        <button class="vote vote-4"></button>
-                    </div>
+        <div class="content-1">
+            <p class="name">狙击手</p>
+            <p class="namber">5号</p>
+            <div class="select">
+                <button class="vote vote-1"></button>
+                <button class="vote vote-2"></button>
+                <button class="vote vote-3"></button>
+                <button class="vote vote-4"></button>
+            </div>
         </div>
-
-        <div class="col-xs-4">
-                <p class="name">杀手</p>
-                <p class="namber">7号</p>
-                    <div class="select">
-                        <button class="vote vote-1"></button>
-                        <button class="vote vote-2"></button>
-                        <button class="vote vote-3"></button>
-                        <button class="vote vote-4"></button>
-                    </div>
+        <div class="content-1">
+            <p class="name">医生</p>
+            <p class="namber">6号</p>
+            <div class="select">
+                <button class="vote vote-1"></button>
+                <button class="vote vote-2"></button>
+                <button class="vote vote-3"></button>
+                <button class="vote vote-4"></button>
+            </div>
         </div>
-
-        <div class="col-xs-4">
-                <p class="name">水民</p>
-                <p class="namber">8号</p>
-                    <div class="select">
-                        <button class="vote vote-1"></button>
-                        <button class="vote vote-2"></button>
-                        <button class="vote vote-3"></button>
-                        <button class="vote vote-4"></button>
-                    </div>
+    </div>
+    <div class="content">
+        <div class="content-1">
+            <p class="name">杀手</p>
+            <p class="namber">7号</p>
+            <div class="select">
+                <button class="vote vote-1"></button>
+                <button class="vote vote-2"></button>
+                <button class="vote vote-3"></button>
+                <button class="vote vote-4"></button>
+            </div>
         </div>
-
-        <div class="col-xs-4">
-                <p class="name">水民</p>
-                <p class="namber">9号</p>
-                    <div class="select">
-                        <button class="vote vote-1"></button>
-                        <button class="vote vote-2"></button>
-                        <button class="vote vote-3"></button>
-                        <button class="vote vote-4"></button>
-                    </div>
+        <div class="content-1">
+            <p class="name">水民</p>
+            <p class="namber">8号</p>
+            <div class="select">
+                <button class="vote vote-1"></button>
+                <button class="vote vote-2"></button>
+                <button class="vote vote-3"></button>
+                <button class="vote vote-4"></button>
+            </div>
         </div>
-
-        <div class="col-xs-4">
-                <p class="name">狙击手</p>
-                <p class="namber">10号</p>
-                    <div class="select">
-                        <button class="vote vote-1"></button>
-                        <button class="vote vote-2"></button>
-                        <button class="vote vote-3"></button>
-                        <button class="vote vote-4"></button>
-                    </div>
+        <div class="content-1">
+            <p class="name">水民</p>
+            <p class="namber">9号</p>
+            <div class="select">
+                <button class="vote vote-1"></button>
+                <button class="vote vote-2"></button>
+                <button class="vote vote-3"></button>
+                <button class="vote vote-4"></button>
+            </div>
         </div>
-
-        <div class="col-xs-4">
-                <p class="name">警察</p>
-                <p class="namber">11号</p>
-                    <div class="select">
-                        <button class="vote vote-1"></button>
-                        <button class="vote vote-2"></button>
-                        <button class="vote vote-3"></button>
-                        <button class="vote vote-4"></button>
-                    </div>
+    </div>
+    <div class="content">
+        <div class="content-1">
+            <p class="name">狙击手</p>
+            <p class="namber">10号</p>
+            <div class="select">
+                <button class="vote vote-1"></button>
+                <button class="vote vote-2"></button>
+                <button class="vote vote-3"></button>
+                <button class="vote vote-4"></button>
+            </div>
         </div>
-        <div class="col-xs-4">
-                <p class="name">路人</p>
-                <p class="namber">12号</p>
-                    <div class="select">
-                        <button class="vote vote-1"></button>
-                        <button class="vote vote-2"></button>
-                        <button class="vote vote-3"></button>
-                        <button class="vote vote-4"></button>
-                    </div>
+        <div class="content-1">
+            <p class="name">警察</p>
+            <p class="namber">11号</p>
+            <div class="select">
+                <button class="vote vote-1"></button>
+                <button class="vote vote-2"></button>
+                <button class="vote vote-3"></button>
+                <button class="vote vote-4"></button>
+            </div>
         </div>
-
+        <div class="content-1">
+            <p class="name">路人</p>
+            <p class="namber">12号</p>
+            <div class="select">
+                <button class="vote vote-1"></button>
+                <button class="vote vote-2"></button>
+                <button class="vote vote-3"></button>
+                <button class="vote vote-4"></button>
+            </div>
         </div>
     </div>
 </main>
-
 <footer>
     <div class="dead">投死</div>
 </footer>
-
 </body>
 </html>
