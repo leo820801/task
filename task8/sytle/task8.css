@@ -1,0 +1,337 @@
+html body{
+    width:100%;
+    height: 100%;
+    font-size: 62.5%;
+}
+.head-1{
+    display: flex;
+    justify-content: space-around;
+    color:#29b078;
+}
+.head-1 p{
+    padding-top: 1%;
+}
+.head-2{
+    padding-top: 0.5%;
+}
+.icon-1{
+    background: url("../images/14.png") no-repeat;
+    width:25px;
+    height: 24px;
+    background-position:-45px -243px;
+    outline: none;
+    border: none;
+}
+.icon-2{
+    background: url("../images/14.png") no-repeat;
+    width:25px;
+    height: 24px;
+    background-position:-10px -277px;
+    outline: none;
+    border: none;
+}
+.icon-3{
+    background: url("../images/14.png") no-repeat;
+    width:25px;
+    height: 24px;
+    background-position:-10px -243px;
+    outline: none;
+    border: none;
+}
+.navbar-header img{
+    padding: 1.4rem 0;
+}
+
+.nav-1{
+    background-color: #29b078;
+    margin: 0;
+}
+
+.nav-2>ul>li{
+    padding: 1rem;
+    font-size:2rem;
+}
+.underline{
+    border-top: 0.5rem solid #29b078;
+    border-bottom: 0.5rem solid #29b078;
+
+}
+.underline:hover{
+    border-bottom: 0.5rem solid white;
+}
+.item img{
+    width:100%;
+}
+#carousel-example-generic{
+    width:100%;
+    margin:0 auto;
+}
+.main-1{
+    margin-top: 10%;
+}
+.col-md-3 h4{
+    text-align: center;
+    padding-top: 2rem;
+}
+.main-11 p{
+    font-size: 1.6rem;
+    padding-top: 1rem;
+    letter-spacing: 0.2rem;
+}
+.icon-4{
+    background: url("../images/14.png") no-repeat;
+    width:43px;
+    height:62px;
+    background-position:-10px -10px;
+}
+.icon-5{
+    background: url("../images/14.png") no-repeat;
+    width:52px;
+    height:62px;
+    background-position:-10px -78px;
+}
+.icon-6{
+    background: url("../images/14.png") no-repeat;
+    width:60px;
+    height:62px;
+    background-position:-10px -138px;
+}
+.icon-7{
+    background: url("../images/14.png") no-repeat;
+    width:13px;
+    height:13px;
+    background-position:-50px -205px;
+}
+.main-2{
+    height: 20rem;
+    padding-top: 1rem;
+    border-left: 2px dashed #dedede;
+}
+.main-3{
+    padding-left: 2rem;
+}
+.digit{
+    padding-left: 3rem;
+    color: #29b078;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+.main-4{
+    margin-top: 8rem;
+}
+.main-5{
+    margin-top: 4rem;
+}
+.flow{
+    width: 292.5px;
+    height: 70px;
+}
+.circle-1{
+    font-size: 2rem;
+    color: #29b078;
+    text-align: center;
+    padding: 20px 0;
+    width:70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid #afbac0;
+    float: left;
+}
+.arrow{
+    float: left;
+    margin-top: 25px;
+}
+/*.namber-1{*/
+    /*background: url("../images/21.png") no-repeat;*/
+    /*width:74px;*/
+    /*height:74px;*/
+    /*background-position:-10px -514px;*/
+    /*float: left;*/
+/*}*/
+/*.namber-2{*/
+    /*background: url("../images/21.png") no-repeat;*/
+    /*width:127px;*/
+    /*height:74px;*/
+    /*background-position:-10px -598px;*/
+    /*float: left;*/
+/*}*/
+/*.namber-3{*/
+    /*background: url("../images/21.png") no-repeat;*/
+    /*width:123px;*/
+    /*height:74px;*/
+    /*background-position:-10px -430px;*/
+    /*float: left;*/
+/*}*/
+/*.namber-4{*/
+    /*background: url("../images/21.png") no-repeat;*/
+    /*width:132px;*/
+    /*height:74px;*/
+    /*background-position:-10px -346px;*/
+    /*float: left;*/
+/*}*/
+/*.namber-5{*/
+    /*background: url("../images/21.png") no-repeat;*/
+    /*width:74px;*/
+    /*height:74px;*/
+    /*background-position:-10px -262px;*/
+    /*float: left;*/
+/*}*/
+/*.namber-6{*/
+    /*background: url("../images/21.png") no-repeat;*/
+    /*width:127px;*/
+    /*height:74px;*/
+    /*background-position:-10px -178px;*/
+    /*float: left;*/
+/*}*/
+/*.namber-7{*/
+    /*background: url("../images/21.png") no-repeat;*/
+    /*width:123px;*/
+    /*height:74px;*/
+    /*background-position:-10px -94px;*/
+    /*float: left;*/
+/*}*/
+/*.namber-8{*/
+    /*background: url("../images/21.png") no-repeat;*/
+    /*width:132px;*/
+    /*height:74px;*/
+    /*background-position:-10px -10px;*/
+    /*float: left;*/
+/*}*/
+.p-2{
+    padding-top: 1.5rem;
+    margin-left: 10rem;
+    font-size: 1.3rem;
+}
+.col-md-12{
+    text-align: center;
+}
+.img-1{
+    background: url("../images/10.gif") no-repeat;
+    width:108px;
+    height: 108px;
+}
+.img-2{
+    background: url("../images/9.gif") no-repeat;
+    width:108px;
+    height: 108px;
+}
+.img-3{
+    background: url("../images/8.gif") no-repeat;
+    width:108px;
+    height: 108px;
+}
+.img-4{
+    background: url("../images/7.gif") no-repeat;
+    width:108px;
+    height: 108px;
+}
+.main-7{
+    margin-bottom: 5rem;
+}
+.p-4{
+    font-size: 1.6rem;
+    padding: 2.5rem;
+    line-height: 2.5rem;
+    color: #999999;
+}
+.main-8{
+    border:1px solid #eeeded;
+    padding-top: 2rem;
+}
+.click-circle{
+    text-align: center;
+    /*padding-bottom: 3rem;*/
+    margin-top: 3rem;
+}
+.circle{
+    border-radius: 1rem;
+    width: 1rem;
+    height: 1rem;
+    border: none;
+    outline: none;
+}
+.circle:hover{
+    background-color: #29b078;
+}
+.enterprise{
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+}
+
+.img-5{
+    background: url("../images/2.gif") no-repeat center;
+    width: 234px;
+    height: 100px;
+    float: left;
+}
+.img-6{
+    background: url("../images/3.gif") no-repeat center;
+    width: 234px;
+    height: 100px;
+    float: left;
+}
+.img-7{
+    background: url("../images/1.gif") no-repeat center;
+    width: 234px;
+    height: 100px;
+    float: left;
+}
+.img-8{
+    background: url("../images/12.gif") no-repeat center;
+    width: 234px;
+    height:100px;
+    float: left;
+}
+.img-9{
+    background: url("../images/11.gif") no-repeat center;
+    width: 234px;
+    height: 100px;
+    float: left;
+}
+.blogroll{
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+}
+.link-1 li{
+    float: left;
+    width:10%;
+    font-size: 1.5rem;
+    color: #a9a9a9;
+}
+.link-1{
+    margin:1rem;
+}
+.foot{
+    background-color: #29b078;
+}
+.code{
+    background: url("../images/6.gif") no-repeat;
+    width: 92px;
+    height: 92px;
+}
+.main-10{
+    text-align: center;
+    color: white;
+}
+.p-5{
+    font-size: 1.5rem;
+    color: white;
+    padding-top: 4rem;
+}
+.p-6{
+    padding-top: 3rem;
+}
+.p-7{
+    font-size: 1.3rem;
+    padding-top: 0.4rem;
+}
+.p-8{
+    font-size: 1.3rem;
+    padding-top: 2rem;
+    color: white;
+}
+
+
+
+
