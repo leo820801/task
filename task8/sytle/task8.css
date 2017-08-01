@@ -236,6 +236,11 @@ html body{
     height: 100px;
     float: left;
 }
+@media screen and (max-width: 750px){
+    .img-5,.img-6,.img-7,.img-8,.img-9{
+        margin-left: 10rem;
+    }
+}
 .blogroll{
     margin-top: 8rem;
     margin-bottom: 2rem;
