@@ -1,0 +1,223 @@
+body{
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.head{
+    background-color: #1d7ad9;
+    height: 3rem;
+    font-size: 1.5rem;
+    color: white;
+}
+.head-1{
+    height: 3rem;
+    display: flex;
+    align-items: center;
+}
+.log-in,.register{
+    background-color: #1d7ad9;
+    border: none;
+    outline: none;
+}
+.logo{
+    color: #1d7ad9;
+}
+.logo h1{
+    margin-bottom: 0;
+    margin-left: 0.5rem;
+}
+.head-2{
+    display: flex;
+    align-items: center;
+}
+.head-page{
+    background-color: white;
+    font-size: 1.5rem;
+    padding:1rem;
+    margin-left:1rem;
+    border: 1px solid whitesmoke;
+    border-radius: 0.5rem;
+    outline: none;
+}
+.head-page:hover{
+    background-color: #1d7ad9;
+    color: white;
+}
+/*度格*/
+/*.line-father{*/
+    /*width:48rem;*/
+    /*height: 10rem;*/
+/*}*/
+.lineson-1{
+    width:12rem;
+    height: 10rem;
+    position: relative;
+    float: left;
+    display: block;
+}
+.line-1{
+    width: 12rem;
+    height: 0.5rem;
+    background-color: #cccccc;
+    position: absolute;
+    top:4rem;
+}
+.line-2{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background-color: #cccccc;
+    position: absolute;
+    top:3.5rem;
+    left: 5.5rem;
+    color: white;
+    text-align: center;
+}
+.p-1{
+    font-size: 1.5rem;
+    color: #cccccc;
+    position: absolute;
+    bottom:1.5rem;
+    left: 3rem;
+}
+.lineson-1:hover .line-1{
+    background-color: #ff7f02;
+}
+.lineson-1:hover .line-2{
+    background-color: #ff7f02;
+}
+.lineson-1:hover .p-1{
+   color: #ff7f02;
+}
+.customization{
+    font-size: 2rem;
+    border-left:5px solid #1d7ad9;
+}
+.choice-box{
+    height: 4rem;
+    background-color: #f3f3f3;
+    font-size: 1.8rem;
+    color: #1d7ad9;
+    display: flex;
+    align-items: center;
+}
+.choice-box img{
+    margin-right: 1rem;
+}
+.box{
+    padding:4rem 1rem;
+    font-size: 2rem;
+    position: relative;
+    line-height: 30px;
+}
+/*!*美化radio*!*/
+.radio-1{
+    display: none;
+}
+.radio-1+label{
+    display: inline-block;
+    padding-left: 60px;
+    position:relative;
+}
+.radio-1+label:before{
+    content: "";
+    position: absolute;
+    left: 32px;
+    top:8px;
+    border: 1px solid #1d7ad9;
+    border-radius: 100%;
+    padding:8px;
+}
+.radio-1:checked+label:after{
+    content: "";
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border:5px solid #1d7ad9;
+    position: absolute;
+    top: 9px;
+    left: 33px;
+}
+.select-1{
+    padding:4rem 1rem;
+    font-size: 1.5rem;
+    color: #999999;
+}
+select{
+    border: 1px solid #999;
+    padding: 10px;
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    background: url("../images/5.gif") no-repeat scroll right center transparent;
+    padding-right: 4rem;
+}
+.size{
+    height: 4rem;
+    background-color: #f3f3f3;
+    font-size: 1.8rem;
+    color: #1d7ad9;
+    display: flex;
+    align-items: center;
+}
+.size img{
+    margin-right: 1rem;
+}
+.box-1{
+    padding:4rem 1rem;
+    font-size: 2rem;
+    position: relative;
+    line-height: 30px;
+}
+.box-1 span{
+    margin: 0 2rem;
+}
+.box-2{
+    padding:4rem 1rem;
+    font-size: 2rem;
+    position: relative;
+    line-height: 30px;
+}
+.box-3{
+    text-align: center;
+    padding:10rem 0;
+}
+.btn{
+    font-size: 2.5rem;
+    padding: 1rem 5rem;
+}
+.main-1{
+    padding: 5rem 0;
+}
+.box-4{
+    color: #999999;
+}
+.box-5 a{
+    color: #999999;
+    font-size: 1.5rem;
+    padding:0 2rem;
+    line-height: 2.5rem;
+}
+.box-6{
+    display: flex;
+    justify-content: flex-end;
+}
+.contact{
+    color: #999999;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+footer{
+    background-color: #1d7ad9;
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    padding: 0.5rem 0;
+}
+
+
+
+
+
+
