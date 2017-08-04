@@ -31,6 +31,21 @@ body{
     display: flex;
     align-items: center;
 }
+@media screen and (max-width: 320px){
+    .head-1{
+        font-size: 1rem;
+    }
+    .head-2{
+        display: block;
+    }
+    .logo{
+        text-align: center;
+    }
+    .box-7 button{
+       padding: .5rem;
+    margin-left: 0.5rem;
+    }
+}
 .head-page{
     background-color: white;
     font-size: 1.5rem;
