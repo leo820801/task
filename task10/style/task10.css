@@ -91,7 +91,7 @@ body{
    color: #ff7f02;
 }
 .customization{
-    font-size: 2rem;
+    font-size: 1.8rem;
     border-left:5px solid #1d7ad9;
 }
 .choice-box{
@@ -170,8 +170,19 @@ select{
     position: relative;
     line-height: 30px;
 }
-.box-1 span{
-    margin: 0 2rem;
+.size-1{
+    display: inline;
+    margin-left: 2rem;
+}
+.size-2{
+    display: inline;
+    margin-right: 2rem;
+}
+@media screen and (max-width: 425px){
+    .size-1,.size-2,.select-1{
+        display: flex;
+        justify-content: center;
+    }
 }
 .box-2{
     padding:4rem 1rem;
@@ -196,12 +207,19 @@ select{
 .box-5 a{
     color: #999999;
     font-size: 1.5rem;
-    padding:0 2rem;
+    padding:0 1rem;
     line-height: 2.5rem;
 }
 .box-6{
     display: flex;
     justify-content: flex-end;
+}
+@media screen and (max-width: 768px){
+    .box-6{
+        display: flex;
+        justify-content: center;
+    }
+
 }
 .contact{
     color: #999999;
