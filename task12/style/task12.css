@@ -1,0 +1,102 @@
+html {
+  font-size: 62.5%; }
+
+header {
+  background-color: #5fc0cd;
+  padding: 1rem;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  header img {
+    width: 12px;
+    height: 20px; }
+  header div {
+    font-size: 2rem;
+    color: white;
+    width: 8rem;
+    padding: 0 .5rem; }
+
+.background {
+  background: url("../images/background.gif") no-repeat;
+  background-size: cover;
+  height: 25rem;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center; }
+  .background .avatar {
+    background: url("../images/avatar.gif") no-repeat;
+    background-size: cover;
+    width: 10rem;
+    height: 10rem;
+    margin-left: 25%; }
+  .background div {
+    color: white;
+    margin-left: 10%; }
+  .background .name {
+    font-size: 2rem; }
+  .background .location {
+    display: inline-block;
+    padding-top: 1.5rem;
+    font-size: 1.5rem; }
+  .background img {
+    margin-right: 1rem; }
+
+.row, .row1 {
+  height: 6rem;
+  padding-left: 3%;
+  font-size: 1.7rem;
+  border-bottom: 1px solid silver;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center; }
+  .row span, .row1 span {
+    display: inline-block;
+    min-width: 8rem;
+    padding-left: 2%; }
+  .row .left, .row1 .left {
+    border-left: 1px solid silver; }
+
+.skills {
+  border-left: 2px solid #5fc0cd; }
+
+.row1 {
+  margin-left: 3%; }
+  .row1 .grey {
+    color: #999999; }
+
+.price {
+  color: #FF0000; }
+
+footer {
+  margin: 4rem 0 2rem;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+  footer input {
+    font-size: 1.5rem;
+    color: #5fc0cd;
+    width: 40%;
+    height: 4rem;
+    border: 2px solid #5fc0cd;
+    border-radius: 1rem;
+    background-color: white; }
+    footer input:hover {
+      color: white;
+      background-color: #5fc0cd;
+      outline: none; }
+
+/*# sourceMappingURL=task12.css.map */

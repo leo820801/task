@@ -1,0 +1,117 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  position: relative; }
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 1rem;
+  z-index: 99; }
+
+.connection {
+  background-color: #5fc0cd;
+  padding: 2rem 0;
+  text-align: center; }
+  .connection .employer {
+    background-color: #55a8b3;
+    color: white;
+    font-size: 2rem;
+    border: none;
+    padding: 0.8rem 0.5rem;
+    border-radius: 0.5rem; }
+  .connection .employee {
+    background-color: white;
+    color: #5fc0cd;
+    font-size: 2rem;
+    border: none;
+    padding: 0.8rem 0.5rem;
+    border-radius: 0.5rem;
+    margin-left: -6px; }
+
+.loc1 {
+  width: 3.6rem;
+  height: 3.6rem;
+  position: absolute;
+  top: 2rem;
+  right: 1rem; }
+
+.nav-bar {
+  border-bottom: 1px solid silver; }
+  .nav-bar div {
+    width: 32%;
+    display: inline-block; }
+  .nav-bar .middle {
+    border-left: 1px solid silver;
+    border-right: 1px solid silver; }
+  .nav-bar select {
+    font-size: 1.5rem;
+    color: #afbac0;
+    padding: 1rem 9%;
+    border: none;
+    min-width: 100%;
+    outline: none; }
+
+main {
+  position: relative;
+  top: 11rem;
+  height: 80rem;
+  overflow: scroll; }
+
+.row {
+  border-bottom: 1px solid #afbac0;
+  font-size: 1.5rem;
+  overflow: hidden; }
+  .row .row1 {
+    padding: 1rem 0;
+    color: #afbac0; }
+    .row .row1 img {
+      width: 15px;
+      height: 15px;
+      float: left;
+      padding: 0 1rem; }
+  .row .row-main {
+    margin: 1rem 0; }
+    .row .row-main .date {
+      margin-left: 3.5rem; }
+    .row .row-main .price {
+      color: red;
+      float: right;
+      margin-right: 1rem; }
+    .row .row-main img {
+      width: 10px;
+      height: 15px;
+      float: right;
+      margin-right: 1rem; }
+
+footer {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-around;
+  background-color: #f8fafb;
+  border-top: 1px solid silver;
+  width: 100%;
+  position: fixed;
+  bottom: 0; }
+  footer div {
+    text-align: center;
+    font-size: 1.5rem; }
+    footer div img {
+      padding-top: 1rem; }
+  footer .hom {
+    color: #5fc0cd; }
+  footer .user {
+    color: #afbac0; }
+  footer .middle {
+    width: 8.5rem;
+    height: 8.5rem;
+    border-radius: 50%;
+    background: #5fc0cd url("../images/middle.png") no-repeat center center; }
+
+/*# sourceMappingURL=task12-2.css.map */

@@ -1,0 +1,138 @@
+html{
+  font-size: 62.5%;
+}
+body{
+  position: relative;
+}
+$primaryColor1: #5fc0cd;
+$primaryColor2: #55a8b3;
+$primaryColor3: #afbac0;
+$primaryColor4: #f8fafb;
+$font-size1: 2rem;
+$font-size2: 1.5rem;
+@mixin display ($flex){
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+header{
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0;
+  margin-bottom: 1rem;
+  z-index: 99;
+}
+.connection{
+  background-color: $primaryColor1;
+  padding: 2rem 0;
+  text-align: center;
+  .employer{
+    background-color: $primaryColor2;
+    color: white;
+    font-size: $font-size1;
+    border: none;
+    padding: 0.8rem 0.5rem;
+    border-radius: 0.5rem;
+  }
+  .employee{
+    background-color: white;
+    color: $primaryColor1;
+    font-size: $font-size1;
+    border: none;
+    padding: 0.8rem 0.5rem;
+    border-radius: 0.5rem;
+    margin-left: -6px;
+  }
+}
+.loc1{
+  width: 3.6rem;
+  height: 3.6rem;
+  position: absolute;
+  top: 2rem;
+  right: 1rem;
+}
+.nav-bar{
+  border-bottom: 1px solid silver;
+  div{
+    width: 32%;
+    display: inline-block;
+  }
+  .middle{
+    border-left: 1px solid silver;
+    border-right: 1px solid silver;
+  }
+  select{
+    font-size: $font-size2;
+    color: $primaryColor3;
+    padding: 1rem 9%;
+    border: none;
+    min-width: 100%;
+    outline: none;
+  }
+}
+main{
+  position: relative;
+  top: 11rem;
+  height: 80rem;
+  overflow: scroll;
+}
+.row{
+  border-bottom: 1px solid $primaryColor3;
+  font-size: $font-size2;
+  overflow: hidden;
+  .row1{
+    padding: 1rem 0;
+    color: $primaryColor3;
+    img{
+      width: 15px;
+      height: 15px;
+      float: left;
+      padding: 0 1rem;
+    }
+  }
+  .row-main{
+    margin: 1rem 0;
+    .date{
+      margin-left: 3.5rem;
+    }
+    .price{
+      color: red;
+      float: right;
+      margin-right: 1rem;
+    }
+    img{
+      width: 10px;
+      height: 15px;
+      float: right;
+      margin-right: 1rem;
+    }
+  }
+}
+footer{
+  @include display(flex);
+  justify-content: space-around;
+  background-color: $primaryColor4;
+  border-top: 1px solid silver;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  div{
+    text-align: center;
+    font-size: $font-size2;
+    img{
+      padding-top: 1rem;
+    }
+  }
+  .hom{color: $primaryColor1;}
+  .user{color: $primaryColor3;}
+  .middle{
+    width: 8.5rem;
+    height: 8.5rem;
+    border-radius: 50%;
+    background: $primaryColor1 url("../images/middle.png") no-repeat center center;
+  }
+}
+
