@@ -1,0 +1,111 @@
+html{
+  font-size: 62.5%;
+}
+$primaryColor1: #29bde0;
+$primaryColor2: #f0f0f0;
+$primaryColor3: #fbb435;
+$primaryColor4: #f66f6f;
+$font-size1: 2rem;
+$font-size2: 1.5rem;
+$font-size3: 1.7rem;
+$font-size4:1.2rem;
+@mixin display ($flex){
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+header{
+  background-color: $primaryColor1;
+  font-size: $font-size1;
+  color: #ffffff;
+  @include display (flex);
+  justify-content: space-between;
+  align-items: center;
+  padding: 3%;
+  border-bottom: 1px solid #ffffff;
+  .home{
+    width: 40px;
+    height: 33px;
+  }
+}
+.end{
+  background-color: $primaryColor1;
+  overflow: hidden;
+  border-bottom: 1px solid #c0c0c0;
+  img{
+    width: 244px;
+    height: 148px;
+    display: block;
+    margin: 4% auto;
+  }
+  .end1{
+    font-size: $font-size1;
+    font-weight: 700;
+    color: $primaryColor3;
+    margin: 0 15% 5% 15%;
+  }
+  .container{
+    margin: 0 18% 5% 15%;
+  }
+  .information{
+    font-size: $font-size2;
+    color: #ffffff;
+    margin: 1.2rem 0;
+    @include display (flex);
+    justify-content: space-between;
+    span{width: 7rem;}
+  }
+}
+.row{
+  padding: 0 15%;
+  border-bottom: 1px solid #c0c0c0;
+  .day-time{
+    @include display(flex);
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0.5rem 0;
+  }
+  .day{
+    font-size: $font-size3;
+    color: #000000;
+  }
+  .time{
+    font-size: $font-size4;
+    color: #c0c0c0;
+  }
+  .font1{
+    font-size: $font-size2;
+    color: #c0c0c0;
+    padding-bottom: 3%;
+    div{
+      margin: 0.7rem 0;
+    }
+  }
+}
+footer{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: rgba(41,189,224,0.5);
+  .but1{
+    color: #ffffff;
+    border: none;
+    font-size: $font-size1;
+    border-radius: 1rem;
+    width: 40%;
+    padding: 1rem;
+    margin: 1rem 5%;
+    float: left;
+    background-color: $primaryColor4;
+  }
+  .but2{
+    @extend .but1;
+    background-color: $primaryColor3;
+  }
+}
+
+
+
+

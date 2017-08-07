@@ -1,0 +1,86 @@
+html{
+  font-size: 62.5%;
+}
+$primaryColor1: #29bde0;
+$primaryColor2: #f0f0f0;
+$primaryColor3: #9a9a9a;
+$primaryColor4: #fbb435;
+$font-size1: 2rem;
+$font-size2: 1.5rem;
+body{
+  background-color: $primaryColor2;
+}
+header{
+  background-color: $primaryColor1;
+  padding: 5% 0 3% 3%;
+  img{
+    width: 2.3rem;
+    height: 1.8rem;
+  }
+}
+.record{
+  margin: 5%;
+  padding: 2.5rem 0;
+  background-color: #ffffff;
+  border: 1px solid #c0c0c0;
+  text-align: center;
+  span{
+    font-size: $font-size1;
+    color: $primaryColor3;
+  }
+  img{
+    float: right;
+    height: 20px;
+    margin-right: 2rem;
+  }
+}
+.detail {
+  margin: 5%;
+  background-color: #ffffff;
+  border: 1px solid #c0c0c0;
+}
+
+.det1{
+  font-size: $font-size1;
+  color: $primaryColor4;
+  border-bottom: 1px solid $primaryColor4;
+  padding: 2rem 0;
+  text-align: center;
+}
+.version{
+  text-align: center;
+  padding-top: 10%;
+  position: relative;
+  input{
+    font-size: $font-size1;
+    color: #ffffff;
+    background-color: $primaryColor1;
+    border: none;
+    padding: 8% 32%;
+  }
+  .number{
+    font-size: $font-size2;
+    margin: 5% 0;
+  }
+  img{
+    width: 21px;
+    height: 42px;
+    position: absolute;
+    right: 1%;
+    margin: auto 0;
+    top: 0;
+    bottom: 0;
+  }
+}
+.cho1{
+  width: 1rem;
+  height: 1rem;
+  background-color: $primaryColor2;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 10px 1px;
+  &:hover{
+    background-color:$primaryColor1;
+  }
+}
+

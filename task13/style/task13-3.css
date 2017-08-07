@@ -1,0 +1,93 @@
+html {
+  font-size: 62.5%; }
+
+header {
+  background-color: #29bde0;
+  font-size: 2rem;
+  color: #ffffff;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3%;
+  border-bottom: 1px solid #ffffff; }
+  header .home {
+    width: 40px;
+    height: 33px; }
+
+.end {
+  background-color: #29bde0;
+  overflow: hidden;
+  border-bottom: 1px solid #c0c0c0; }
+  .end img {
+    width: 244px;
+    height: 148px;
+    display: block;
+    margin: 4% auto; }
+  .end .end1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fbb435;
+    margin: 0 15% 5% 15%; }
+  .end .container {
+    margin: 0 18% 5% 15%; }
+  .end .information {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin: 1.2rem 0;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between; }
+    .end .information span {
+      width: 7rem; }
+
+.row {
+  padding: 0 15%;
+  border-bottom: 1px solid #c0c0c0; }
+  .row .day-time {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0.5rem 0; }
+  .row .day {
+    font-size: 1.7rem;
+    color: #000000; }
+  .row .time {
+    font-size: 1.2rem;
+    color: #c0c0c0; }
+  .row .font1 {
+    font-size: 1.5rem;
+    color: #c0c0c0;
+    padding-bottom: 3%; }
+    .row .font1 div {
+      margin: 0.7rem 0; }
+
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: rgba(41, 189, 224, 0.5); }
+  footer .but1, footer .but2 {
+    color: #ffffff;
+    border: none;
+    font-size: 2rem;
+    border-radius: 1rem;
+    width: 40%;
+    padding: 1rem;
+    margin: 1rem 5%;
+    float: left;
+    background-color: #f66f6f; }
+  footer .but2 {
+    background-color: #fbb435; }
+
+/*# sourceMappingURL=task13-3.css.map */
