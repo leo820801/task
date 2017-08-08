@@ -1,0 +1,53 @@
+$color: #29b078;
+.head-1{
+  padding:0;
+  display: flex;
+  justify-content: space-around;
+  color: $color;
+  p,div{
+    padding: 1% 0;
+  }
+  button{
+    width:25px;
+    height: 24px;
+    outline: none;
+    border: none;
+  }
+  .icon-1{
+    background: url("../images/14.png") no-repeat;
+    background-position:-45px -243px;
+  }
+  .icon-2{
+    background: url("../images/14.png") no-repeat;
+    background-position:-10px -277px;
+  }
+  .icon-3{
+    background: url("../images/14.png") no-repeat;
+    background-position:-10px -243px;
+  }
+}
+
+.nav-1{
+  background-color: $color;
+  margin: 0;
+  img{
+    padding: 1.4rem 0;
+  }
+}
+
+.nav-2{
+  li{
+  padding: 1rem;
+  font-size:2rem;
+  }
+  .underline{
+    border-top: 0.5rem solid $color;
+    border-bottom: 0.5rem solid $color;
+    &:hover{
+      border-bottom: 0.5rem solid white;
+    }
+  }
+}
+
+
+

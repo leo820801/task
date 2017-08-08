@@ -1,0 +1,24 @@
+.foot {
+  background-color: #29b078; }
+  .foot .main-10 {
+    text-align: center;
+    color: #fff; }
+    .foot .main-10 .code {
+      background: url("../images/6.gif") no-repeat;
+      width: 92px;
+      height: 92px; }
+  .foot .p-5 {
+    font-size: 1.5rem;
+    color: #fff;
+    padding-top: 4rem; }
+  .foot .p-6 {
+    padding-top: 3rem; }
+  .foot .p-7 {
+    font-size: 1.3rem;
+    padding-top: 0.4rem; }
+  .foot .p-8 {
+    font-size: 1.3rem;
+    padding-top: 2rem;
+    color: white; }
+
+/*# sourceMappingURL=footer.css.map */

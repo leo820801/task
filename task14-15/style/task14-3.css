@@ -1,0 +1,63 @@
+html body {
+  width: 100%;
+  height: 100%;
+  font-size: 62.5%; }
+
+.hd {
+  padding: 2rem 0;
+  border-bottom: 1px solid #a9a9a9; }
+  .hd .home-page {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 1.5rem; }
+
+.direction {
+  border-bottom: 1px solid #dedede; }
+  .direction .nav-3 {
+    background-color: white;
+    padding: 1.5rem 0;
+    border: none;
+    margin: 0; }
+    .direction .nav-3 .p-1 {
+      font-size: 1.5rem; }
+    .direction .nav-3 li {
+      font-size: 1.5rem; }
+      .direction .nav-3 li:hover {
+        background-color: #29b078; }
+
+.front-end {
+  padding: 2rem 0;
+  border-bottom: 1px solid #999999; }
+
+.col-md-4 {
+  margin-top: 4%; }
+  .col-md-4 .hover-select {
+    position: relative; }
+    .col-md-4 .hover-select .head-photo {
+      float: left;
+      padding: 1rem; }
+    .col-md-4 .hover-select .color-1 {
+      color: #b0b0b0;
+      display: table-cell; }
+    .col-md-4 .hover-select .color-2 {
+      color: #b0b0b0; }
+    .col-md-4 .hover-select .money {
+      float: right; }
+    .col-md-4 .hover-select .boxhover {
+      font-size: 1.5rem;
+      color: white;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      text-align: center;
+      padding: 20% 10%;
+      display: none; }
+      .col-md-4 .hover-select .boxhover .p-3 {
+        text-align: left;
+        margin-top: 10%; }
+    .col-md-4 .hover-select:hover .boxhover {
+      display: block;
+      background: rgba(0, 0, 0, 0.5); }
+
+/*# sourceMappingURL=task14-3.css.map */

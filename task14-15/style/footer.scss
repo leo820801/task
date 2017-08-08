@@ -1,0 +1,33 @@
+$color: #29b078;
+$color-1: #fff;
+.foot{
+  background-color: $color;
+  .main-10{
+    text-align: center;
+    color: $color-1;
+    .code{
+      background: url("../images/6.gif") no-repeat;
+      width: 92px;
+      height: 92px;
+    }
+  }
+  .p-5{
+    font-size: 1.5rem;
+    color: $color-1;
+    padding-top: 4rem;
+  }
+  .p-6{
+    padding-top: 3rem;
+  }
+  .p-7{
+    font-size: 1.3rem;
+    padding-top: 0.4rem;
+  }
+  .p-8{
+    font-size: 1.3rem;
+    padding-top: 2rem;
+    color: white;
+  }
+}
+
+
